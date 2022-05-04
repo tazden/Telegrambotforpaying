@@ -1,0 +1,4 @@
+Коммандная строка позволяющая связать работу серверов телеграмма и вашего сервера
+curl --location --request POST "https://api.telegram.org/ТОКЕН вашего бота/setWebhook?
+url=ссылка на ваш сервер(https)" --header "Content-Type: application/json" 
+--data-raw "{"url":ссылка на ваш сервер(https)"}"
